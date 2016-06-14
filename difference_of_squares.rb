@@ -1,6 +1,5 @@
 class Squares
   def initialize(num)
-    @num = num
     @array_of_num = (0..num).to_a
   end
 
