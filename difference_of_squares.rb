@@ -5,8 +5,7 @@ class Squares
   end
 
   def square_of_sum
-    total_sum = @array_of_num.reduce(:+)
-    total_sum**2
+    @array_of_num.reduce(:+)**2
   end
 
   def sum_of_squares
